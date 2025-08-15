@@ -26,7 +26,7 @@ public class Test {
         cd.setCapability("platformName", "Android");
         cd.setCapability("appium:platformVersion", "15");
         cd.setCapability("appium:deviceName", "moto g34 5G");
-        cd.setCapability("appium:udid", "ZA222JF6V8");
+        cd.setCapability("appium:udid", "192.168.0.148:5555");
         cd.setCapability("appium:automationName", "UiAutomator2");
         cd.setCapability("appium:appPackage", "com.google.android.calculator");
         cd.setCapability("appium:appActivity", "com.android.calculator2.Calculator");
