@@ -40,7 +40,6 @@ public class Test {
         WebElement plus =driver.findElement(By.id("com.google.android.calculator:id/op_add"));
         WebElement equals =driver.findElement(By.id("com.google.android.calculator:id/eq"));
 
-
         two.click();
         plus.click();
         three.click();
