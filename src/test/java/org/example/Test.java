@@ -45,7 +45,6 @@ public class Test {
         three.click();
         equals.click();
 
-
         WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
 
         WebElement result = wait.until(ExpectedConditions.visibilityOfElementLocated(By.id("com.google.android.calculator:id/result_final")));
